@@ -37,6 +37,24 @@ python run.py                                         # 等价于 uvicorn src.se
 
 默认 `mock` 模式，无需任何 API key。要改前端再 `cd fe-main && npm install && npm run build`。
 
+### 想看真实 DeepSeek 效果？（填自己的 key，3 步）
+
+mock 模式已能跑通全部主流程，但回答语言不如真实 LLM 自然。要体验真实 DeepSeek，**填你自己的 key 即可**（仓库不含任何真实 key，出于安全不会内置）：
+
+```bash
+cp .env.example .env          # Windows: copy .env.example .env
+```
+
+然后编辑 `.env`，把 mock 改成 deepseek 并填上你的 key：
+
+```ini
+LLM_MODE=deepseek
+DEEPSEEK_API_KEY=sk-你自己的key      # 在 https://platform.deepseek.com 注册即可获取，有免费额度
+```
+
+重新运行 `./start.ps1`（或 `./start.sh`）即可。`.env` 已被 `.gitignore` 忽略，**不会被提交**。
+> 也可以不改 `.env`：启动后在**前端顶部下拉运行时切换** mock / DeepSeek（未配置 key 时 deepseek 选项自动置灰）。
+
 ## 1. 安装依赖
 
 需要 Python 3.10+（开发环境为 3.13）。
