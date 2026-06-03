@@ -1,0 +1,25 @@
+# env / secrets
+.env
+*.key
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# logs (runtime generated)
+logs/*.jsonl
+logs/*.log
+
+# SQLite 会话库（运行时自动创建，不提交）
+data/
+
+# test outputs
+tests/outputs/
+
+# IDE / 工具
+.idea/
+.vscode/
+.claude/

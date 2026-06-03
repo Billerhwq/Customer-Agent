@@ -1,0 +1,9 @@
+node_modules/
+*.local
+.vite/
+
+# 注意：dist/ 已被提交，方便 clone 后无需 Node 直接由后端提供界面。
+# 如果你不想提交构建产物，可改为忽略 dist/ 并在 README 要求 `npm run build`。
+
+# TS 构建缓存
+tsconfig.tsbuildinfo

@@ -1,0 +1,69 @@
+{
+  "company": {
+    "id": "C001",
+    "name": "JH Auto Parts",
+    "business": "custom automotive metal parts and manufacturing solutions",
+    "location": "Ningbo, China",
+    "markets": ["Europe", "North America", "Mexico", "Southeast Asia"],
+    "capabilities": [
+      "custom metal stamping",
+      "CNC machining",
+      "welding",
+      "surface treatment",
+      "OEM manufacturing based on drawings, samples, or 3D models"
+    ]
+  },
+  "products": [
+    {
+      "id": "P001",
+      "name": "custom stamping bracket",
+      "materials": ["stainless steel", "carbon steel", "aluminum"],
+      "moq": "500 pcs",
+      "lead_time": "15-25 days after sample approval",
+      "customization": "drawing, sample, or 3D model accepted"
+    },
+    {
+      "id": "P002",
+      "name": "CNC machined aluminum part",
+      "materials": ["6061 aluminum", "7075 aluminum"],
+      "moq": "100 pcs",
+      "lead_time": "10-20 days depending on complexity",
+      "customization": "STEP, PDF drawing, or sample accepted"
+    },
+    {
+      "id": "P003",
+      "name": "welded automotive support frame",
+      "materials": ["carbon steel", "stainless steel"],
+      "moq": "300 pcs",
+      "lead_time": "20-35 days depending on tooling and welding fixture",
+      "customization": "2D drawing, 3D model, or physical sample accepted"
+    }
+  ],
+  "faq": [
+    {
+      "id": "F001",
+      "question": "Can you provide samples?",
+      "answer": "Yes. Sample cost depends on tooling and material. Buyer usually covers shipping."
+    },
+    {
+      "id": "F002",
+      "question": "Do you support OEM?",
+      "answer": "Yes. We support OEM and custom manufacturing based on drawings, 3D models, or samples."
+    },
+    {
+      "id": "F003",
+      "question": "What information is needed for quotation?",
+      "answer": "Please provide drawing, material, quantity, surface treatment, tolerance requirements, and destination country."
+    },
+    {
+      "id": "F004",
+      "question": "What file formats do you accept?",
+      "answer": "We can review PDF drawings, STEP files, DXF files, and photos of physical samples."
+    },
+    {
+      "id": "F005",
+      "question": "Do you sell standard retail products?",
+      "answer": "We mainly provide OEM and custom manufacturing. We do not focus on retail sale of standard consumer products."
+    }
+  ]
+}

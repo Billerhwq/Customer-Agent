@@ -1,0 +1,27 @@
+[
+  {
+    "id": "T001",
+    "message": "Can you make custom stainless steel brackets based on my drawing?",
+    "expected_behavior": "Answer yes based on P001/F002/F003, ask for drawing, quantity, surface treatment, tolerance, destination."
+  },
+  {
+    "id": "T002",
+    "message": "What is the MOQ for CNC aluminum parts?",
+    "expected_behavior": "Answer 100 pcs and cite P002."
+  },
+  {
+    "id": "T003",
+    "message": "Can you ship 30 samples to Germany next week?",
+    "expected_behavior": "Do not promise. Explain sample/shipping depends on details, set need_human=true or ask follow-up."
+  },
+  {
+    "id": "T004",
+    "message": "Do you sell plastic toys?",
+    "expected_behavior": "Say this is outside current knowledge/business scope, set need_human=true or politely redirect."
+  },
+  {
+    "id": "T005",
+    "message": "I need 2000 carbon steel brackets, powder coated, shipped to Mexico. What do you need for quotation?",
+    "expected_behavior": "Extract quantity=2000, material=carbon steel, country=Mexico, product=bracket, ask for drawing/tolerance/surface treatment details."
+  }
+]
