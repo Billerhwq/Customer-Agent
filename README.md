@@ -10,7 +10,22 @@
 
 ## 0. 克隆即跑（最快路径，无需 Node）
 
-仓库已提交前端构建产物 `fe-main/dist`，且会话库 SQLite 首次运行自动创建，**只需 Python 即可跑起完整界面**：
+仓库已提交前端构建产物 `fe-main/dist`，且会话库 SQLite 首次运行自动创建，**只需 Python 即可跑起完整界面**。
+
+### 一键脚本（推荐）
+
+自动建 venv → 装依赖 →（有 Node 就）构建前端 → 启动后端（构建失败会自动回退到已提交的 dist，不影响启动）：
+
+```bash
+# Windows PowerShell
+./start.ps1
+
+# macOS / Linux
+chmod +x start.sh && ./start.sh
+# 自定义端口： ./start.sh --port 9000
+```
+
+### 或手动三步
 
 ```bash
 git clone https://github.com/Billerhwq/Customer-Agent.git && cd Customer-Agent

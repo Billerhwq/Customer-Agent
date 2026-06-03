@@ -23,3 +23,6 @@ tests/outputs/
 .idea/
 .vscode/
 .claude/
+
+# 一键脚本运行日志
+start_test.log
