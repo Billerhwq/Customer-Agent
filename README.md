@@ -235,6 +235,9 @@ key 时 deepseek 选项自动置灰）。
 
 ---
 
+<img width="1895" height="951" alt="image" src="https://github.com/user-attachments/assets/0e0d11be-acb5-4bd0-8c28-394edb468f8e" />
+
+
 ## 项目结构
 
 ```text
